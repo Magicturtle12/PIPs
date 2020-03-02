@@ -5,7 +5,7 @@ author: <a list of the author's or authors' name(s) and/or username(s), or name(
 discussions-to: <URL>
 status: Draft
 type: <Standards Track | Meta | Informational>
-category (*only required for Standard Track): <Core | Networking | Interface | ERC>
+category (*only required for Standard Track): <Core | Networking | Interface | PRC>
 created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
 requires (*optional): <PIP number(s)>
 replaces (*optional): <PIP number(s)>
