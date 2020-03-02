@@ -4,7 +4,7 @@
 
 Pie Improvement Proposals (PIPs) describe standards for the Ethereum platform, including core protocol specifications, client APIs, and contract standards.
 
-A browsable version of all current and draft PIPs can be found on [the official PIP site](https://pips.ethereum.org/).
+A browsable version of all current and draft PIPs can be found on [the official PIP site](https://pips.piedao.org/).
 
 # Contributing
 
