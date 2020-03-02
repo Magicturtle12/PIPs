@@ -1,4 +1,4 @@
-When opening a pull request to submit a new PIP, please use the suggested template: https://github.com/ethereum/PIPs/blob/master/pip-template.md
+When opening a pull request to submit a new PIP, please use the suggested template: https://github.com/pie-dao/PIPs/blob/master/pip-template.md
 
 We have a GitHub bot that automatically merges some PRs. It will merge yours immediately if certain criteria are met:
 

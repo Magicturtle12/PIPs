@@ -17,7 +17,7 @@ layout: null
         {% if pip.discussions-to %}
           <p>The author has requested that discussions happen at the following URL: {{ pip.discussions-to }}</p>
         {% else %}
-          <p>Please visit the [ethereum/PIPs issues to comment](https://github.com/ethereum/PIPs/issues/{{pip.pip}}).</p>
+          <p>Please visit the [ethereum/PIPs issues to comment](https://github.com/pie-dao/PIPs/issues/{{pip.pip}}).</p>
         {% endif %}
         <hr />
         {{ pip.content }}        

@@ -4,7 +4,7 @@ title: PIP Purpose and Guidelines
 status: Active
 type: Meta
 author: Martin Becze <mb@ethereum.org>, Hudson Jameson <hudson@ethereum.org>, and others
-        https://github.com/ethereum/PIPs/blob/master/PIPS/pip-1.md
+        https://github.com/pie-dao/PIPs/blob/master/PIPS/pip-1.md
 created: 2015-10-27
 updated: 2015-12-07, 2016-02-01, 2018-03-21, 2018-05-29, 2018-10-17, 2019-05-19, 2019-12-04
 ---
@@ -110,7 +110,7 @@ Other exceptional statuses include:
 
 Each PIP should have the following parts:
 
-- Preamble - RFC 822 style headers containing metadata about the PIP, including the PIP number, a short descriptive title (limited to a maximum of 44 characters), and the author details. See [below](https://github.com/ethereum/PIPs/blob/master/PIPS/pip-1.md#pip-header-preamble) for details.
+- Preamble - RFC 822 style headers containing metadata about the PIP, including the PIP number, a short descriptive title (limited to a maximum of 44 characters), and the author details. See [below](https://github.com/pie-dao/PIPs/blob/master/PIPS/pip-1.md#pip-header-preamble) for details.
 - Abstract - A short (~200 word) description of the technical issue being addressed.
 - Motivation (*optional) - The motivation is critical for PIPs that want to change the Ethereum protocol. It should clearly explain why the existing protocol specification is inadequate to address the problem that the PIP solves. PIP submissions without sufficient motivation may be rejected outright.
 - Specification - The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough to allow competing, interoperable implementations for any of the current Ethereum platforms (cpp-ethereum, go-ethereum, parity, ethereumJ, ethereumjs-lib, [and others](https://github.com/ethereum/wiki/wiki/Clients).
@@ -284,35 +284,35 @@ May 19, 2019: The **Abandoned** status was introduced.
 
 Dec 4, 2019: The "Security Considerations" section was introduced.
 
-See [the revision history for further details](https://github.com/ethereum/PIPs/commits/master/PIPS/pip-1.md), which is also available by clicking on the History button in the top right of the PIP.
+See [the revision history for further details](https://github.com/pie-dao/PIPs/commits/master/PIPS/pip-1.md), which is also available by clicking on the History button in the top right of the PIP.
 
 ### Bibliography
 
-[PIP5]: https://github.com/ethereum/PIPs/blob/master/PIPS/pip-5.md
-[PIP101]: https://github.com/ethereum/PIPs/issues/28
-[PIP90]: https://github.com/ethereum/PIPs/issues/90
-[PIP86]: https://github.com/ethereum/PIPs/issues/86#issue-145324865
+[PIP5]: https://github.com/pie-dao/PIPs/blob/master/PIPS/pip-5.md
+[PIP101]: https://github.com/pie-dao/PIPs/issues/28
+[PIP90]: https://github.com/pie-dao/PIPs/issues/90
+[PIP86]: https://github.com/pie-dao/PIPs/issues/86#issue-145324865
 [devp2p]: https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p-Wire-Protocol
-[PIP8]: https://github.com/ethereum/PIPs/blob/master/PIPS/pip-8.md
+[PIP8]: https://github.com/pie-dao/PIPs/blob/master/PIPS/pip-8.md
 [Light Ethereum Subprotocol]: https://github.com/ethereum/wiki/wiki/Light-client-protocol
 [whisper]: https://github.com/ethereum/go-ethereum/wiki/Whisper-Overview
 [swarm]: https://github.com/ethereum/go-ethereum/pull/2959
 [API/RPC]: https://github.com/ethereum/wiki/wiki/JSON-RPC
-[PIP6]: https://github.com/ethereum/PIPs/blob/master/PIPS/pip-6.md
+[PIP6]: https://github.com/pie-dao/PIPs/blob/master/PIPS/pip-6.md
 [contract ABIs]: https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI
 [interfaces repo]: https://github.com/ethereum/interfaces
-[ERC20]: https://github.com/ethereum/PIPs/issues/20
-[ERC26]: https://github.com/ethereum/PIPs/issues/26
-[ERC137]: https://github.com/ethereum/PIPs/issues/137
-[ERC67]: https://github.com/ethereum/PIPs/issues/67
-[PIP82]: https://github.com/ethereum/PIPs/issues/82
-[PIP75]: https://github.com/ethereum/PIPs/issues/75
-[PIP85]: https://github.com/ethereum/PIPs/issues/85
+[ERC20]: https://github.com/pie-dao/PIPs/issues/20
+[ERC26]: https://github.com/pie-dao/PIPs/issues/26
+[ERC137]: https://github.com/pie-dao/PIPs/issues/137
+[ERC67]: https://github.com/pie-dao/PIPs/issues/67
+[PIP82]: https://github.com/pie-dao/PIPs/issues/82
+[PIP75]: https://github.com/pie-dao/PIPs/issues/75
+[PIP85]: https://github.com/pie-dao/PIPs/issues/85
 [the Ethereum subreddit]: https://www.reddit.com/r/ethereum/
 [one of the Ethereum Gitter chat rooms]: https://gitter.im/ethereum/
-[pull request]: https://github.com/ethereum/PIPs/pulls
+[pull request]: https://github.com/pie-dao/PIPs/pulls
 [formal specification]: https://github.com/ethereum/yellowpaper
-[the Issues section of this repository]: https://github.com/ethereum/PIPs/issues
+[the Issues section of this repository]: https://github.com/pie-dao/PIPs/issues
 [markdown]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 [Bitcoin's BIP-0001]: https://github.com/bitcoin/bips
 [Python's PEP-0001]: https://www.python.org/dev/peps/
