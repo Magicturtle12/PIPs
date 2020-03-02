@@ -9,25 +9,25 @@ layout: null
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/last-call.xml" rel="self" type="application/rss+xml" />
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    {% assign eips = site.pages | sort: 'eip' %}
-    {% for eip in eips %}
-      {% if eip.status == "Last Call" %}
+    {% assign pips = site.pages | sort: 'pip' %}
+    {% for pip in pips %}
+      {% if pip.status == "Last Call" %}
       {% capture description %}
-        <p><strong>PIP #{{ eip.eip }} - {{eip.title }}</strong> is in Last Call status. It is authored by {{ eip.author }} and was originally created {{ eip.created }}. It is in the {{ eip.category }} category of type {{ eip.type }}. Please review and note any changes that should block acceptance.</p>
-        {% if eip.discussions-to %}
-          <p>The author has requested that discussions happen at the following URL: {{ eip.discussions-to }}</p>
+        <p><strong>PIP #{{ pip.pip }} - {{pip.title }}</strong> is in Last Call status. It is authored by {{ pip.author }} and was originally created {{ pip.created }}. It is in the {{ pip.category }} category of type {{ pip.type }}. Please review and note any changes that should block acceptance.</p>
+        {% if pip.discussions-to %}
+          <p>The author has requested that discussions happen at the following URL: {{ pip.discussions-to }}</p>
         {% else %}
-          <p>Please visit the [ethereum/PIPs issues to comment](https://github.com/ethereum/PIPs/issues/{{eip.eip}}).</p>
+          <p>Please visit the [ethereum/PIPs issues to comment](https://github.com/ethereum/PIPs/issues/{{pip.pip}}).</p>
         {% endif %}
         <hr />
-        {{ eip.content }}        
+        {{ pip.content }}        
       {% endcapture %}
       <item>
-        <title>{{ eip.title | xml_escape }}</title>
+        <title>{{ pip.title | xml_escape }}</title>
         <description>{{ description | xml_escape }}</description>
-        <pubDate>{{ eip.created | date_to_rfc822 }}</pubDate>
-        <link>{{ site.url }}/{{ eip.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}/{{ eip.url }}</guid>
+        <pubDate>{{ pip.created | date_to_rfc822 }}</pubDate>
+        <link>{{ site.url }}/{{ pip.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}/{{ pip.url }}</guid>
       </item>
       {% endif %}
     {% endfor %}

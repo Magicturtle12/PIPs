@@ -1,10 +1,10 @@
 ---
-eip: 1
+pip: 1
 title: PIP Purpose and Guidelines
 status: Active
 type: Meta
 author: Martin Becze <mb@ethereum.org>, Hudson Jameson <hudson@ethereum.org>, and others
-        https://github.com/ethereum/PIPs/blob/master/PIPS/eip-1.md
+        https://github.com/ethereum/PIPs/blob/master/PIPS/pip-1.md
 created: 2015-10-27
 updated: 2015-12-07, 2016-02-01, 2018-03-21, 2018-05-29, 2018-10-17, 2019-05-19, 2019-12-04
 ---
@@ -46,7 +46,7 @@ REVERT (0xfe)
 
 ### Shepherding an PIP
 
-Parties involved in the process are you, the champion or *PIP author*, the [*PIP editors*](#eip-editors), and the [*Ethereum Core Developers*](https://github.com/ethereum/pm).
+Parties involved in the process are you, the champion or *PIP author*, the [*PIP editors*](#pip-editors), and the [*Ethereum Core Developers*](https://github.com/ethereum/pm).
 
 Before you begin writing a formal PIP, you should vet your idea. Ask the Ethereum community first if an idea is original to avoid wasting time on something that will be be rejected based on prior research. It is thus recommended to open a discussion thread on [the Ethereum Magicians forum] to do this, but you can also use [one of the Ethereum Gitter chat rooms], [the Ethereum subreddit] or [the Issues section of this repository]. 
 
@@ -88,7 +88,7 @@ Each status change is requested by the PIP author and reviewed by the PIP editor
 * **Draft** -- Once the first draft has been merged, you may submit follow-up pull requests with further changes to your draft until such point as you believe the PIP to be mature and ready to proceed to the next status. An PIP in draft status must be implemented to be considered for promotion to the next status (ignore this requirement for core PIPs).
   * :arrow_right: Last Call -- If agreeable, the PIP editor will assign Last Call status and set a review end date (`review-period-end`), normally 14 days later.
   * :x: Last Call -- A request for Last Call status will be denied if material changes are still expected to be made to the draft. We hope that PIPs only enter Last Call once, so as to avoid unnecessary noise on the RSS feed.
-* **Last Call** -- This PIP will listed prominently on the https://eips.ethereum.org/ website (subscribe via RSS at [last-call.xml](/last-call.xml)).
+* **Last Call** -- This PIP will listed prominently on the https://pips.ethereum.org/ website (subscribe via RSS at [last-call.xml](/last-call.xml)).
   * :x: -- A Last Call which results in material changes or substantial unaddressed technical complaints will cause the PIP to revert to Draft.
   * :arrow_right: Accepted (Core PIPs only) -- A successful Last Call without material changes or unaddressed technical complaints will become Accepted.
   * :arrow_right: Final (Non-Core PIPs) -- A successful Last Call without material changes or unaddressed technical complaints will become Final.
@@ -110,7 +110,7 @@ Other exceptional statuses include:
 
 Each PIP should have the following parts:
 
-- Preamble - RFC 822 style headers containing metadata about the PIP, including the PIP number, a short descriptive title (limited to a maximum of 44 characters), and the author details. See [below](https://github.com/ethereum/PIPs/blob/master/PIPS/eip-1.md#eip-header-preamble) for details.
+- Preamble - RFC 822 style headers containing metadata about the PIP, including the PIP number, a short descriptive title (limited to a maximum of 44 characters), and the author details. See [below](https://github.com/ethereum/PIPs/blob/master/PIPS/pip-1.md#pip-header-preamble) for details.
 - Abstract - A short (~200 word) description of the technical issue being addressed.
 - Motivation (*optional) - The motivation is critical for PIPs that want to change the Ethereum protocol. It should clearly explain why the existing protocol specification is inadequate to address the problem that the PIP solves. PIP submissions without sufficient motivation may be rejected outright.
 - Specification - The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough to allow competing, interoperable implementations for any of the current Ethereum platforms (cpp-ethereum, go-ethereum, parity, ethereumJ, ethereumjs-lib, [and others](https://github.com/ethereum/wiki/wiki/Clients).
@@ -124,13 +124,13 @@ Each PIP should have the following parts:
 ## PIP Formats and Templates
 
 PIPs should be written in [markdown] format.
-Image files should be included in a subdirectory of the `assets` folder for that PIP as follows: `assets/eip-N` (where **N** is to be replaced with the PIP number). When linking to an image in the PIP, use relative links such as `../assets/eip-1/image.png`.
+Image files should be included in a subdirectory of the `assets` folder for that PIP as follows: `assets/pip-N` (where **N** is to be replaced with the PIP number). When linking to an image in the PIP, use relative links such as `../assets/pip-1/image.png`.
 
 ## PIP Header Preamble
 
 Each PIP must begin with an [RFC 822](https://www.ietf.org/rfc/rfc822.txt) style header preamble, preceded and followed by three hyphens (`---`). This header is also termed ["front matter" by Jekyll](https://jekyllrb.com/docs/front-matter/). The headers must appear in the following order. Headers marked with "*" are optional and are described below. All other headers are required.
 
-` eip:` *PIP number* (this is determined by the PIP editor)
+` pip:` *PIP number* (this is determined by the PIP editor)
 
 ` title:` *PIP title*
 
@@ -274,7 +274,7 @@ December 7, 2015: PIP 1 has been improved and will be placed as a PR.
 
 February 1, 2016: PIP 1 has added editors, made draft improvements to process, and has merged with Master stream.
 
-March 21, 2018: Minor edits to accommodate the new automatically-generated PIP directory on [eips.ethereum.org](https://eips.ethereum.org/).
+March 21, 2018: Minor edits to accommodate the new automatically-generated PIP directory on [pips.ethereum.org](https://pips.ethereum.org/).
 
 May 29, 2018: A last call process was added.
 
@@ -284,21 +284,21 @@ May 19, 2019: The **Abandoned** status was introduced.
 
 Dec 4, 2019: The "Security Considerations" section was introduced.
 
-See [the revision history for further details](https://github.com/ethereum/PIPs/commits/master/PIPS/eip-1.md), which is also available by clicking on the History button in the top right of the PIP.
+See [the revision history for further details](https://github.com/ethereum/PIPs/commits/master/PIPS/pip-1.md), which is also available by clicking on the History button in the top right of the PIP.
 
 ### Bibliography
 
-[PIP5]: https://github.com/ethereum/PIPs/blob/master/PIPS/eip-5.md
+[PIP5]: https://github.com/ethereum/PIPs/blob/master/PIPS/pip-5.md
 [PIP101]: https://github.com/ethereum/PIPs/issues/28
 [PIP90]: https://github.com/ethereum/PIPs/issues/90
 [PIP86]: https://github.com/ethereum/PIPs/issues/86#issue-145324865
 [devp2p]: https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p-Wire-Protocol
-[PIP8]: https://github.com/ethereum/PIPs/blob/master/PIPS/eip-8.md
+[PIP8]: https://github.com/ethereum/PIPs/blob/master/PIPS/pip-8.md
 [Light Ethereum Subprotocol]: https://github.com/ethereum/wiki/wiki/Light-client-protocol
 [whisper]: https://github.com/ethereum/go-ethereum/wiki/Whisper-Overview
 [swarm]: https://github.com/ethereum/go-ethereum/pull/2959
 [API/RPC]: https://github.com/ethereum/wiki/wiki/JSON-RPC
-[PIP6]: https://github.com/ethereum/PIPs/blob/master/PIPS/eip-6.md
+[PIP6]: https://github.com/ethereum/PIPs/blob/master/PIPS/pip-6.md
 [contract ABIs]: https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI
 [interfaces repo]: https://github.com/ethereum/interfaces
 [ERC20]: https://github.com/ethereum/PIPs/issues/20

@@ -28,7 +28,7 @@ matrix:
     - rvm: 2.3.0
       env: TASK='htmlproofer-external'
     - rvm: 2.3.0
-      env: TASK='eip-validator'
+      env: TASK='pip-validator'
     - python: 3.3
       env: TASK='codespell'
       before_script: "sudo pip install urllib3[secure] && sudo pip install codespell"

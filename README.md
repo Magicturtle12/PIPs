@@ -4,18 +4,18 @@
 
 Pie Improvement Proposals (PIPs) describe standards for the Ethereum platform, including core protocol specifications, client APIs, and contract standards.
 
-A browsable version of all current and draft PIPs can be found on [the official PIP site](https://eips.ethereum.org/).
+A browsable version of all current and draft PIPs can be found on [the official PIP site](https://pips.ethereum.org/).
 
 # Contributing
 
- 1. Review [PIP-1](PIPS/eip-1.md).
+ 1. Review [PIP-1](PIPS/pip-1.md).
  2. Fork the repository by clicking "Fork" in the top right.
- 3. Add your PIP to your fork of the repository. There is a [template PIP here](eip-template.md).
+ 3. Add your PIP to your fork of the repository. There is a [template PIP here](pip-template.md).
  4. Submit a Pull Request to Ethereum's [PIPs repository](https://github.com/ethereum/PIPs).
 
 Your first PR should be a first draft of the final PIP. It must meet the formatting criteria enforced by the build (largely, correct metadata in the header). An editor will manually review the first PR for a new PIP and assign it a number before merging it. Make sure you include a `discussions-to` header with the URL to a discussion forum or open GitHub issue where people can discuss the PIP as a whole.
 
-If your PIP requires images, the image files should be included in a subdirectory of the `assets` folder for that PIP as follows: `assets/eip-N` (where **N** is to be replaced with the PIP number). When linking to an image in the PIP, use relative links such as `../assets/eip-1/image.png`.
+If your PIP requires images, the image files should be included in a subdirectory of the `assets` folder for that PIP as follows: `assets/pip-N` (where **N** is to be replaced with the PIP number). When linking to an image in the PIP, use relative links such as `../assets/pip-1/image.png`.
 
 Once your first PR is merged, we have a bot that helps out by automatically merging PRs to draft PIPs. For this to work, it has to be able to tell that you own the draft being edited. Make sure that the 'author' line of your PIP contains either your GitHub username or your email address inside <triangular brackets>. If you use your email address, that address must be the one publicly shown on [your GitHub profile](https://github.com/settings/profile).
 
@@ -34,21 +34,21 @@ When you believe your PIP is mature and ready to progress past the draft phase, 
 
 # Preferred Citation Format
 
-The canonical URL for a PIP that has achieved draft status at any point is at https://eips.ethereum.org/. For example, the canonical URL for PIP-1 is https://eips.ethereum.org/PIPS/eip-1.
+The canonical URL for a PIP that has achieved draft status at any point is at https://pips.ethereum.org/. For example, the canonical URL for PIP-1 is https://pips.ethereum.org/PIPS/pip-1.
 
 # Validation
 
-PIPs must pass some validation tests.  The PIP repository ensures this by running tests using [html-proofer](https://rubygems.org/gems/html-proofer) and [eip_validator](https://rubygems.org/gems/eip_validator).
+PIPs must pass some validation tests.  The PIP repository ensures this by running tests using [html-proofer](https://rubygems.org/gems/html-proofer) and [pip_validator](https://rubygems.org/gems/pip_validator).
 
 It is possible to run the PIP validator locally:
 ```sh
-gem install eip_validator
-eip_validator <INPUT_FILES>
+gem install pip_validator
+pip_validator <INPUT_FILES>
 ```
 
 # Automerger
 
-The PIP repository contains an "auto merge" feature to ease the workload for PIP editors.  If a change is made via a PR to a draft PIP, then the authors of the PIP can GitHub approve the change to have it auto-merged by the [eip-automerger](https://github.com/eip-automerger/automerger) bot.
+The PIP repository contains an "auto merge" feature to ease the workload for PIP editors.  If a change is made via a PR to a draft PIP, then the authors of the PIP can GitHub approve the change to have it auto-merged by the [pip-automerger](https://github.com/pip-automerger/automerger) bot.
 
 # Local development
 

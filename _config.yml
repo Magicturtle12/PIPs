@@ -18,7 +18,7 @@ description: >-
   Pie Improvement Proposals (PIPs) describe standards for the Ethereum
   platform, including core protocol specifications, client APIs, and contract
   standards.
-url: "https://eips.ethereum.org"
+url: "https://pips.ethereum.org"
 twitter_username: ethereum
 github_username:  ethereum
 header_pages:
@@ -50,7 +50,7 @@ defaults:
     scope:
       path: "PIPS"
     values:
-      layout: "eip"
+      layout: "pip"
 
 exclude:
   - Gemfile
@@ -60,7 +60,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - eip-template.md
+  - pip-template.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
   - README.md

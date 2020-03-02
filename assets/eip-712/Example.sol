@@ -44,13 +44,13 @@ contract Example {
         }));
     }
 
-    function hash(PIP712Domain eip712Domain) internal pure returns (bytes32) {
+    function hash(PIP712Domain pip712Domain) internal pure returns (bytes32) {
         return keccak256(abi.encode(
             PIP712DOMAIN_TYPEHASH,
-            keccak256(bytes(eip712Domain.name)),
-            keccak256(bytes(eip712Domain.version)),
-            eip712Domain.chainId,
-            eip712Domain.verifyingContract
+            keccak256(bytes(pip712Domain.name)),
+            keccak256(bytes(pip712Domain.version)),
+            pip712Domain.chainId,
+            pip712Domain.verifyingContract
         ));
     }
 
