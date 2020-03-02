@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ethereum Improvement Proposals
+title: Pie Improvement Proposals
 description: >-
-  Ethereum Improvement Proposals (EIPs) describe standards for the Ethereum
+  Pie Improvement Proposals (EIPs) describe standards for the Ethereum
   platform, including core protocol specifications, client APIs, and contract
   standards.
 url: "https://eips.ethereum.org"
