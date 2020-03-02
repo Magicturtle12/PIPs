@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Pie Improvement Proposals
 description: >-
-  Pie Improvement Proposals (EIPs) describe standards for the Ethereum
+  Pie Improvement Proposals (PIPs) describe standards for the Ethereum
   platform, including core protocol specifications, client APIs, and contract
   standards.
 url: "https://eips.ethereum.org"
@@ -38,7 +38,7 @@ markdown: kramdown
 theme: minima
 kramdown:
   parse_block_html: false
-  # This is the default, but be explicit as some EIPs depend on it
+  # This is the default, but be explicit as some PIPs depend on it
   auto_ids: true
   # This is to ensure more determistic behaviour
   auto_id_stripping: true
@@ -48,7 +48,7 @@ permalink: /:slug
 defaults:
   -
     scope:
-      path: "EIPS"
+      path: "PIPS"
     values:
       layout: "eip"
 

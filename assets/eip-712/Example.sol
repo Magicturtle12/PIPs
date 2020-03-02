@@ -2,7 +2,7 @@ pragma solidity ^0.4.24;
 
 contract Example {
     
-    struct EIP712Domain {
+    struct PIP712Domain {
         string  name;
         string  version;
         uint256 chainId;
@@ -20,8 +20,8 @@ contract Example {
         string contents;
     }
 
-    bytes32 constant EIP712DOMAIN_TYPEHASH = keccak256(
-        "EIP712Domain(string name,string version,uint256 chainId,address verifyingContract)"
+    bytes32 constant PIP712DOMAIN_TYPEHASH = keccak256(
+        "PIP712Domain(string name,string version,uint256 chainId,address verifyingContract)"
     );
 
     bytes32 constant PERSON_TYPEHASH = keccak256(
@@ -35,7 +35,7 @@ contract Example {
     bytes32 DOMAIN_SEPARATOR;
 
     constructor () public {
-        DOMAIN_SEPARATOR = hash(EIP712Domain({
+        DOMAIN_SEPARATOR = hash(PIP712Domain({
             name: "Ether Mail",
             version: '1',
             chainId: 1,
@@ -44,9 +44,9 @@ contract Example {
         }));
     }
 
-    function hash(EIP712Domain eip712Domain) internal pure returns (bytes32) {
+    function hash(PIP712Domain eip712Domain) internal pure returns (bytes32) {
         return keccak256(abi.encode(
-            EIP712DOMAIN_TYPEHASH,
+            PIP712DOMAIN_TYPEHASH,
             keccak256(bytes(eip712Domain.name)),
             keccak256(bytes(eip712Domain.version)),
             eip712Domain.chainId,
