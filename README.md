@@ -1,8 +1,8 @@
 # Pie Improvement Proposals (PIPs)
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ethereum/PIPs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Gitter](https://img.shields.io/badge/Discord-Connect_with_the_community-green?logo=discord&style=flat)](https://piedao.org/discord)
 
-Pie Improvement Proposals (PIPs) describe standards for the Ethereum platform, including core protocol specifications, client APIs, and contract standards.
+Pie Improvement Proposals (PIPs) describe standards for the Ethereum platform, including core protocol specifications, client APIs, contract standards and protocol parameters.
 
 A browsable version of all current and draft PIPs can be found on [the official PIP site](https://pips.piedao.org/).
 
@@ -11,18 +11,13 @@ A browsable version of all current and draft PIPs can be found on [the official 
  1. Review [PIP-1](PIPS/pip-1.md).
  2. Fork the repository by clicking "Fork" in the top right.
  3. Add your PIP to your fork of the repository. There is a [template PIP here](pip-template.md).
- 4. Submit a Pull Request to Ethereum's [PIPs repository](https://github.com/pie-dao/PIPs).
+ 4. Submit a Pull Request to Pie DAO's [PIPs repository](https://github.com/pie-dao/PIPs).
 
 Your first PR should be a first draft of the final PIP. It must meet the formatting criteria enforced by the build (largely, correct metadata in the header). An editor will manually review the first PR for a new PIP and assign it a number before merging it. Make sure you include a `discussions-to` header with the URL to a discussion forum or open GitHub issue where people can discuss the PIP as a whole.
 
 If your PIP requires images, the image files should be included in a subdirectory of the `assets` folder for that PIP as follows: `assets/pip-N` (where **N** is to be replaced with the PIP number). When linking to an image in the PIP, use relative links such as `../assets/pip-1/image.png`.
 
-Once your first PR is merged, we have a bot that helps out by automatically merging PRs to draft PIPs. For this to work, it has to be able to tell that you own the draft being edited. Make sure that the 'author' line of your PIP contains either your GitHub username or your email address inside <triangular brackets>. If you use your email address, that address must be the one publicly shown on [your GitHub profile](https://github.com/settings/profile).
-
-When you believe your PIP is mature and ready to progress past the draft phase, you should do one of two things:
-
- - **For a Standards Track PIP of type Core**, ask to have your issue added to [the agenda of an upcoming All Core Devs meeting](https://github.com/ethereum/pm/issues), where it can be discussed for inclusion in a future hard fork. If implementers agree to include it, the PIP editors will update the state of your PIP to 'Accepted'.
- - **For all other PIPs**, open a PR changing the state of your PIP to 'Final'. An editor will review your draft and ask if anyone objects to its being finalised. If the editor decides there is no rough consensus - for instance, because contributors point out significant issues with the PIP - they may close the PR and request that you fix the issues in the draft before trying again.
+When you believe your PIP is mature and ready to progress past the draft phase, you should ask to have your issue added to the next governance call where it can be discussed and a vote can be started in the DAO. If the DAO votes yes on the proposal the PIP editors will update the state of your PIP to approved
 
 # PIP Status Terms
 
@@ -34,7 +29,7 @@ When you believe your PIP is mature and ready to progress past the draft phase, 
 
 # Preferred Citation Format
 
-The canonical URL for a PIP that has achieved draft status at any point is at https://pips.ethereum.org/. For example, the canonical URL for PIP-1 is https://pips.ethereum.org/PIPS/pip-1.
+The canonical URL for a PIP that has achieved draft status at any point is at https://pips.piedao.org/. For example, the canonical URL for PIP-1 is https://pips.piedao.org/PIPS/pip-1.
 
 # Validation
 
