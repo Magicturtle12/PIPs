@@ -1,7 +1,7 @@
---
+---
 pip: 1
 title: PIP Purpose and Guidelines
-status: Active
+status: Draft
 type: Meta
 author: Martin Becze <mb@ethereum.org>, Hudson Jameson <hudson@ethereum.org>, and others
         https://github.com/pie-dao/PIPs/blob/master/PIPS/pip-1.md
@@ -11,7 +11,7 @@ updated: 2015-12-07, 2016-02-01, 2018-03-21, 2018-05-29, 2018-10-17, 2019-05-19,
 
 ## What is an PIP?
 
-PIP stands for Pie Improvement Proposal. An PIP is a design document providing information to the Ethereum community, or describing a new feature for Ethereum or its processes or environment. The PIP should provide a concise technical specification of the feature and a rationale for the feature. The PIP author is responsible for building consensus within the community and documenting dissenting opinions.
+PIP stands for Pie Improvement Proposal. An PIP is a design document providing information to the PieDAO community, or describing a new feature for PieDAO or its processes or environment. The PIP should provide a concise technical specification of the feature and a rationale for the feature. The PIP author is responsible for building consensus within the community and documenting dissenting opinions.
 
 ## PIP Rationale
 
