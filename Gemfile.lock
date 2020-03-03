@@ -11,7 +11,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
-    builder (3.2.3)
+    builder (3.2.4)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -22,7 +22,7 @@ GEM
     concurrent-ruby (1.1.5)
     dnsruby (1.61.2)
       addressable (~> 2.5)
-    pip_validator (0.8.2)
+    eip_validator (0.8.2)
       activemodel
       front_matter_parser (~> 0.1.1)
     em-websocket (0.5.1)
@@ -262,7 +262,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  pip_validator (>= 0.8.2)
+  eip_validator (>= 0.8.2)
   github-pages (= 198)
   html-proofer (>= 3.3.1)
   jekyll-feed (~> 0.6)
