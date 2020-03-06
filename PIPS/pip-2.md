@@ -2,7 +2,7 @@
 pip: 2
 title: Cash++
 author: Mick de Graaf (@mickdegraaf)
-discussions-to: <URL>
+discussions-to: https://forum.piedao.org/t/pip-2-cash-pie/37
 status: Draft
 type: PIEs
 created: 2020-03-06
