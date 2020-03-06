@@ -35,6 +35,8 @@ The proxy is used to be able to pause and upgrade the pool on the lowest level a
 
 Using the proxy also allows us to later add hooks into the smart contract to do the accounting for the future migration plan of PieDAO.
 
+This approach allows us to create this PIE and later easily add improvements and new features without the need to redeploy.
+
 ## Security Considerations
 <!--All PIPs must contain a section that discusses the security implications/considerations relevant to the proposed change. Include information that might be important for security discussions, surfaces risks and can be used throughout the life cycle of the proposal. E.g. include security-relevant design decisions, concerns, important discussions, implementation-specific guidance and pitfalls, an outline of threats and risks and how they are being addressed. PIP submissions missing the "Security Considerations" section will be rejected. An PIP cannot proceed to status "Final" without a Security Considerations discussion deemed sufficient by the reviewers.-->
 
