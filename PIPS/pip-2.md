@@ -1,5 +1,5 @@
 ---
-pip: <to be assigned>
+pip: 2
 title: Cash++
 author: Mick de Graaf (@mickdegraaf)
 discussions-to: <URL>
